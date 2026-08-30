@@ -323,7 +323,7 @@ zip = { version = "8", default-features = false, features = [ "deflate" ] }
 # Parse the package-level relationship part so the OOXML redactor can identify
 # (and refuse to empty) the actual officeDocument target, even when it uses a
 # non-default part name. Already locked transitively through plist.
-quick-xml = "0.41"
+quick-xml = "0.42"
 
 # Modern-PDF (PDF 1.5+) redaction segmenter (ADR-0028): FlateDecode for cross-
 # reference streams + compressed object streams. Pure-Rust miniz_oxide backend
